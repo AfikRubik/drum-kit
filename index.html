@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Drum Kit</title>
+</head>
+<body>
+  <nav>
+    <label class="logo" for="title">Drum Kit</label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <p>
+    <img src="assets/drum.jpg" alt="Drum Kit">
+  </p>
+
+  <div class="keys">
+    <div data-key="a" class="key">
+      <kbd>A</kbd>
+      <div class="sound">clap</div>
+    </div>
+    <div data-key="s" class="key">
+      <kbd>S</kbd>
+      <div class="sound">hihat</div>
+    </div>
+    <div data-key="d" class="key">
+      <kbd>D</kbd>
+      <div class="sound">kick</div>
+    </div>
+    <div data-key="f" class="key">
+      <kbd>F</kbd>
+      <div class="sound">open hat</div>
+    </div>
+  </div>
+
+  <audio data-key="a" src="sounds/clap.wav"></audio>
+  <audio data-key="s" src="sounds/hihat.wav"></audio>
+  <audio data-key="d" src="sounds/kick.wav"></audio>
+  <audio data-key="f" src="sounds/openhat.wav"></audio>
+  <audio data-key="g" src="sounds/hihat.wav"></audio>
+  <audio data-key="h" src="sounds/hihat.wav"></audio>
+  <audio data-key="j" src="sounds/hihat.wav"></audio>
+  <audio data-key="k" src="sounds/hihat.wav"></audio>
+  <audio data-key="l" src="sounds/hihat.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
