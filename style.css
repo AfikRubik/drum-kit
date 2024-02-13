@@ -60,16 +60,16 @@ nav ul a:hover {
 
 .key {
   display: block;
-  border: solid 1px black;
+  border: solid 3px rgba(0, 0, 255, 0.5);
   margin: 10px;
-  width: 50px;
+  width: 60px;
   padding: 5px;
   border-radius: 3px;
-  transition: .05s ease;
+  transition: .09s ease;
 }
 
 .playing {
-  transform: scale(1.1);
+  border: solid 3px rgb(0, 0, 255);
 }
 
 kbd {
